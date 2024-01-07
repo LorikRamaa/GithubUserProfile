@@ -1,0 +1,89 @@
+body {
+  background-color: #002246;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+input {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00458f;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  width: 50%;
+}
+input::placeholder {
+  color: #fff;
+}
+form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.search {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 90%;
+  background-color: #00458f;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px auto;
+  color: #fff;
+}
+.card img {
+  border-radius: 50%;
+  width: 90%;
+}
+.cardText {
+  width: 100%;
+}
+.cardText p {
+  color: #adadad;
+}
+
+.cardText ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+.cardText ul li {
+  list-style-type: none;
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+#repos {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 80%;
+}
+#repos a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  background-color: #002246;
+  margin: 10px;
+  border-radius: 5px;
+}
