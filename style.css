@@ -87,3 +87,19 @@ form {
   margin: 10px;
   border-radius: 5px;
 }
+@media screen and (max-width: 850px) {
+  .card {
+    flex-direction: column;
+    max-width: 80%;
+    align-items: center;
+  }
+  .rightSide {
+    width: 100%;
+  }
+  .cardText ul {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+}
