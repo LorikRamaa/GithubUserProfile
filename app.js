@@ -31,7 +31,7 @@ function card(user) {
             </div>
             <div class="rightSide">
               <div class="cardText">
-                  <h2>${user.login}</h2>
+                  <h2>${user.name}</h2>
                   <p>${user.bio}</p>
                   <ul>    
                       <li><strong>Followers: </strong>${user.followers}</li>
